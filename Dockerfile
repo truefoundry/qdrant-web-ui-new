@@ -21,4 +21,4 @@ RUN npm run build
 EXPOSE 3000
 
 # Start the app
-CMD ["serve", "-s", "build"]
+CMD ["serve", "-s", "dist"]
